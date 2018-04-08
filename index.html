@@ -8,10 +8,24 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<button id="login">
-<!-- 		<a href="loader.html"> -->
-			Login with GitHub
-<!-- 		</a> -->
-	</button>
+
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAV5Ns9NjEBvG-FMzD_QkXXMWUV0h0Ldkk",
+    authDomain: "css-loader.firebaseapp.com",
+    databaseURL: "https://css-loader.firebaseio.com",
+    projectId: "css-loader",
+    storageBucket: "css-loader.appspot.com",
+    messagingSenderId: "859511912373"
+  };
+  firebase.initializeApp(config);
+</script>
+
+	<button id="login"><a href="loader.html">Login with GitHub</a></button>
 
 </html>
