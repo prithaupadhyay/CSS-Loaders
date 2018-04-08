@@ -27,7 +27,8 @@
 </script>
 
 <script>
-  var provider = new firebase.auth.GithubAuthProvider();
+  function loadingcss(){
+    var provider = new firebase.auth.GithubAuthProvider();
   provider.addScope('repo');
   provider.setCustomParameters({
   'allow_signup': 'false'
@@ -48,8 +49,12 @@
   var credential = error.credential;
   // ...
 });
+  }
 </script>
 
-	<button id="login" onclick="firebase.auth().signInWithPopup(provider)">Login with GitHub</button>
+
+	<button id="login" onclick="loadingcss()">Login with GitHub</button>
+
 
 </html>
+
