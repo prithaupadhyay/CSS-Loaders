@@ -152,8 +152,8 @@ background-color: #FFFFFF;
 }
 
 #l1box1{
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	background-color: #FF0000;
 	display: inline-block;
 	animation-name: l1box1_an;
@@ -163,8 +163,8 @@ background-color: #FFFFFF;
 }
 
 #l1box2{
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	background-color: #00CC00;
 	display: inline-block;
 	animation-name: l1box2_an;
@@ -174,8 +174,8 @@ background-color: #FFFFFF;
 }
 
 #l1box3{
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height:80px;
 	background-color: #0000FF;
 	display: inline-block;
 	animation-name: l1box3_an;
@@ -185,8 +185,8 @@ background-color: #FFFFFF;
 }
 
 #l1box4{
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	background-color: #FFFF00;
 	display: inline-block;
 	animation-name: l1box4_an;
@@ -201,13 +201,13 @@ background-color: #FFFFFF;
 		transform: translate(0,0);
 	}
 	25%{
-		transform: translate(50px,0);
+		transform: translate(80px,0);
 	}
 	50%{
-		transform: translate(50px,50px);
+		transform: translate(80px,80px);
 	}
 	75%{
-		transform: translate(0,50px);
+		transform: translate(0,80px);
 	}
 	100%{
 		transform: translate(0,0);
@@ -216,54 +216,54 @@ background-color: #FFFFFF;
 
 @keyframes l1box2_an{
 	0%{
-		transform: translate(50px,0);
+		transform: translate(80px,0);
 	}
 	25%{
-		transform: translate(50px,50px);
+		transform: translate(80px,80px);
 	}
 	50%{
-		transform: translate(0,50px);
+		transform: translate(0,80px);
 	}
 	75%{
 		transform: translate(0,0);
 	}
 	100%{
-		transform: translate(50px,0);
+		transform: translate(80px,0);
 	}
 }
 
 @keyframes l1box3_an{
 	0%{
-		transform: translate(0,50px);
+		transform: translate(0,80px);
 	}
 	25%{
 		transform: translate(0,0);
 	}
 	50%{
-		transform: translate(50px,0);
+		transform: translate(80px,0);
 	}
 	75%{
-		transform: translate(50px,50px);
+		transform: translate(80px,80px);
 	}
 	100%{
-		transform: translate(0,50px);
+		transform: translate(0,80px);
 	}
 }
 
 @keyframes l1box4_an{
 	0%{
-		transform: translate(50px,50px);
+		transform: translate(80px,80px);
 	}
 	25%{
-		transform: translate(0,50px);
+		transform: translate(0,80px);
 	}
 	50%{
 		transform: translate(0,0);
 	}
 	75%{
-		transform: translate(50px,0);
+		transform: translate(80px,0);
 	}
 	100%{
-		transform: translate(50px,50px);
+		transform: translate(80px,80px);
 	}
 }
