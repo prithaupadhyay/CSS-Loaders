@@ -1,8 +1,10 @@
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 300px 300px;
-  grid-gap: 10px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 350px 350px 350px 350px;
+  grid-column-gap: 1%;
+  grid-row-gap: 15px;
+  justify-content: space-between;
   padding: 30px;
   background-color: #996633;
 }

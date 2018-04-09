@@ -4,134 +4,10 @@
 }
 
 
-#loading{
-	color:#003333;
-	display: inline-block;
-}
-
-#l2dot1{
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: #006666;
-	display: inline-block;
-	animation-name: l2dot1_an;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-}
-
-#l2dot2{
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: #006666;
-	display: inline-block;
-	animation-name: l2dot2_an;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-}
-
-
-#l2dot3{
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: #006666;
-	display: inline-block;
-	animation-name: l2dot3_an;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-}
-
-#l2dot4{
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: #006666;
-	display: inline-block;
-	animation-name: l2dot4_an;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-}
-
-@keyframes l2dot4_an{
-	0%{
-		opacity: 0;
-	}
-	25%{
-		opacity: 0.25;
-	}
-	50%{
-		opacity: 0.5;
-	}
-	75%{
-		opacity: 0.75;
-	}
-	100%{
-		opacity: 1;
-	}
-}
-
-@keyframes l2dot3_an{
-	0%{
-		opacity: 0.25;
-	}
-	25%{
-		opacity: 0.5;
-	}
-	50%{
-		opacity: 0.75;
-	}
-	75%{
-		opacity: 1;
-	}
-	100%{
-		opacity: 0;
-	}
-}
-
-@keyframes l2dot2_an{
-	0%{
-		opacity: 0.5;
-	}
-	25%{
-		opacity: 0.75;
-	}
-	50%{
-		opacity: 1;
-	}
-	75%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 0.25;
-	}
-}
-
-
-@keyframes l2dot1_an{
-	0%{
-		opacity: 0.75;
-	}
-	25%{
-		opacity: 1;
-	}
-	50%{
-		opacity: 0;
-	}
-	75%{
-		opacity: 0.25;
-	}
-	100%{
-		opacity: 0.5;
-	}
-}
-
 
 #l2box1{
 	width: 80px;
 	height: 80px;
-        border-radius : 20%;
 	background-color: #990000;
 	display: inline-block;
 	animation-name: l2box1_an;
@@ -143,7 +19,6 @@
 #l2box2{
 	width: 80px;
 	height: 80px;
-	border-radius:20%;
 	background-color: #006600;
 	display: inline-block;
 	animation-name: l2box2_an;
@@ -155,7 +30,6 @@
 #l2box3{
 	width: 80px;
 	height: 80px;
-	border-radius:20%;
 	background-color: #000099;
 	display: inline-block;
 	animation-name: l2box3_an;
@@ -167,7 +41,6 @@
 #l2box4{
 	width: 80px;
 	height: 80px;
-	border-radius:20%;
 	background-color: #FFFF00;
 	display: inline-block;
 	animation-name: l2box4_an;
