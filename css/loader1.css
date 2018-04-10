@@ -6,6 +6,14 @@
 	color: #330066;
 }
 
+#sourcecode{
+	width: 50%;
+	height: 15%;
+	font-size: 80%;
+	margin-top: 12%;
+	margin-left: 10%;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
