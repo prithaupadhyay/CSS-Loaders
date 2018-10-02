@@ -1,34 +1,63 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Loader</title>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		
-		<!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script async defer src="https://buttons.github.io/buttons.js"></script>
-		
-		<a align="left" class="github-button" href="https://github.com/prithaupadhyay/CSS-Loaders/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork prithaupadhyay/CSS-Loaders on GitHub">Fork</a>
-		<a align="left" class="github-button" href="https://github.com/prithaupadhyay" data-size="large" data-show-count="true" aria-label="Follow @prithaupadhyay on GitHub">Follow @prithaupadhyay</a>
-		<a align="left" class="github-button" href="https://github.com/prithaupadhyay/CSS-Loaders" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star prithaupadhyay/CSS-Loaders on GitHub">Star</a>
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<link rel="stylesheet" type="text/css" href="css/loading.css">
-		<link rel="stylesheet" type="text/css" href="css/dancing-circles.css">
-		<link rel="stylesheet" type="text/css" href="css/dancing-squares.css">
-		<link rel="stylesheet" type="text/css" href="css/dancing-squares-large.css">
-		<link rel="stylesheet" type="text/css" href="css/spinning-heart.css">
-		<link rel="stylesheet" type="text/css" href="css/spinning-line.css">
-		<link rel="stylesheet" type="text/css" href="css/dancing-dots.css">
-		<link rel="stylesheet" type="text/css" href="css/merging-circles.css">
-		<link rel="stylesheet" type="text/css" href="css/fading-dots.css">
-	
-	</head>
-	<body>
-		<h1 id="heading">Loaders</h1>
+<title>Loader</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+ crossorigin="anonymous">
+<link rel='stylesheet' href='css/prettify.css' />
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/loading.css">
+<link rel="stylesheet" type="text/css" href="css/dancing-circles.css">
+<link rel="stylesheet" type="text/css" href="css/dancing-squares.css">
+<link rel="stylesheet" type="text/css" href="css/dancing-squares-large.css">
+<link rel="stylesheet" type="text/css" href="css/spinning-heart.css">
+<link rel="stylesheet" type="text/css" href="css/spinning-line.css">
+<link rel="stylesheet" type="text/css" href="css/dancing-dots.css">
+<link rel="stylesheet" type="text/css" href="css/merging-circles.css">
+<link rel="stylesheet" type="text/css" href="css/fading-dots.css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="prettify/prettify.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+ crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+ crossorigin="anonymous"></script>
+<script>
+	$(function () {
+		$("<pre />", {
+			"html": '&lt;!DOCTYPE html>\n&lt;html>\n' +
+				$("html")
+					.html()
+					.replace(/[<>]/g, function (m) { return { '<': '&lt;', '>': '&gt;' }[m] })
+					.replace(/((ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?)/gi, '<a href="$1">$1</a>') +
+				'\n&lt;/html>',
+			"class": "prettyprint"
+		}).appendTo("#source-code");
+
+		prettyPrint();
+	});
+</script>
+</head>
+
+<body class="container">
+	<div id="page-wrap">
+		<a href="#source-code" class="btn btn-primary btn-view-source" id="view-source">View Page Source</a>
+		<div class="btn-github">
+			<a align="left" class="github-button" href="https://github.com/prithaupadhyay/CSS-Loaders/fork" data-icon="octicon-repo-forked"
+			 data-size="large" data-show-count="true" aria-label="Fork prithaupadhyay/CSS-Loaders on GitHub">Fork</a>
+			<a align="left" class="github-button" href="https://github.com/prithaupadhyay" data-size="large" data-show-count="true"
+			 aria-label="Follow @prithaupadhyay on GitHub">Follow @prithaupadhyay</a>
+			<a align="left" class="github-button" href="https://github.com/prithaupadhyay/CSS-Loaders" data-icon="octicon-star"
+			 data-size="large" data-show-count="true" aria-label="Star prithaupadhyay/CSS-Loaders on GitHub">Star</a>
+		</div>
+
+		<h1>Loaders</h1>
 		<div class="grid-container">
 			<div class="loader-preview load0" id="loading">
 				<div class="code">
@@ -39,10 +68,10 @@
 					<div id="l1dot4"></div>
 				</div>
 				<br>
-				<button class="view-code">Source Code</button>
-	
+				<button class="btn btn-link view-code">Source Code</button>
+
 			</div>
-	
+
 			<div class="loader-preview load3" id="dancing-circles">
 				<div class="code">
 					<div id="l3box1"></div>
@@ -51,9 +80,9 @@
 					<div id="l3box4"></div>
 				</div>
 				<br>
-				<button class="view-code">Source Code</button>
+				<button class="btn btn-light view-code">Source Code</button>
 			</div>
-	
+
 			<div class="loader-preview load1" id="dancing-squares">
 				<div class="code">
 					<div id="l1box1"></div>
@@ -63,25 +92,25 @@
 				</div>
 				<br>
 				<br>
-				<button class="view-code">Source Code</button>
+				<button class="btn btn-dark view-code">Source Code</button>
 			</div>
-	
+
 			<div class="loader-preview load6" id="spinning-heart">
 				<div class="code">
 					<div id="heart"></div>
 				</div>
-				<button class="view-code">Source Code</button>
+				<button class="btn view-code">Source Code</button>
 			</div>
-	
+
 			<div class="loader-preview load5" id="spinning-line">
 				<div class="code">
 					<div id="l5box1"></div>
 				</div>
 				<br>
 				<br>
-				<button class="view-code">Source Code</button>
+				<button class="btn btn-secondary view-code">Source Code</button>
 			</div>
-	
+
 			<div class="loader-preview load9" id="merging-circles">
 				<div class="code">
 					<div class="load9inner">
@@ -93,9 +122,9 @@
 				</div>
 				<br>
 				<br>
-				<button class="view-code">Source Code</button>
+				<button class="btn btn-success view-code">Source Code</button>
 			</div>
-	
+
 			<div class="loader-preview load4" id="dancing-dots">
 				<div class="code">
 					<div id="l4ball1"></div>
@@ -103,9 +132,9 @@
 					<div id="l4ball3"></div>
 					<div id="l4ball4"></div>
 				</div>
-				<button class="view-code">Source Code</button>
+				<button class="btn btn-warning view-code">Source Code</button>
 			</div>
-	
+
 			<div class="loader-preview load2" id="dancing-squares-large">
 				<div class="code">
 					<div id="l2box1"></div>
@@ -113,10 +142,10 @@
 					<div id="l2box3"></div>
 					<div id="l2box4"></div>
 				</div>
-				<button class="view-code">Source Code</button>
-			</div>		
-	
-	
+				<button class="btn btn-info view-code">Source Code</button>
+			</div>
+
+
 			<div class="loader-preview load7" id="fading-dots">
 				<div class="code">
 					<div id="l7ball1"></div>
@@ -124,50 +153,51 @@
 					<div id="l7ball3"></div>
 					<div id="l7ball4"></div>
 				</div>
-				<button class="view-code">Source Code</button>
+				<button class="btn btn-danger view-code">Source Code</button>
 			</div>
-			
+
 		</div>
-	</br>
-	
-	<div id="view-source-code">
-		<div>
-			<h3>HTML:</h3>
-			<div class="html">
-				<code></code>
+		</br>
+
+		<div id="view-source-code">
+			<div>
+				<h3>HTML:</h3>
+				<div class="html">
+					<code></code>
+				</div>
+				<h3>CSS:</h3>
+				<div class="css">
+					<code></code>
+				</div>
 			</div>
-			<h3>CSS:</h3>
-			<div class="css">
-				<code></code>
-			</div>
+			<button class="close">X</button>
 		</div>
-		<button class="close">X</button>
+		<div class="code-modal-back"></div>
+
+		<div id="source-code">
+			<a href="#" id="x"><img src="image/x.png" alt="close"></a>
+		</div>
 	</div>
-	<div class="code-modal-back"></div>
-	
+
 	<script type="text/javascript">
-		$(document).ready(function(){
-			
-			$('.view-code').click(function(){
+		$(document).ready(function () {
+
+			$('.view-code').click(function () {
 				$('#view-source-code').show();
 				$('.code-modal-back').show();
-				
-				$('#view-source-code .html code').text( $(this).siblings('.code').html() );
-				
+
+				$('#view-source-code .html code').text($(this).siblings('.code').html());
+
 				var code_name = $(this).parent().attr('id');
-				
-				$.get('css/' + code_name + '.css', function(data) {
-				   $('#view-source-code .css code').text( data );
+
+				$.get('css/' + code_name + '.css', function (data) {
+					$('#view-source-code .css code').text(data);
 				}, 'text');
 			});
-			
-			$('.code-modal-back, #view-source-code .close').click(function(){
+
+			$('.code-modal-back, #view-source-code .close').click(function () {
 				$('#view-source-code').hide();
 				$('.code-modal-back').hide();
 			});
 		});
 	</script>
-	
-	</body>
-
-</html>
