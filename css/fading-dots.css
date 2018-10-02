@@ -1,0 +1,129 @@
+#l7ball1,#l7ball2,#l7ball3,#l7ball4{
+	margin-top: 30%;
+}
+
+/*.load7{
+	height:130%;
+}
+*/
+#l7ball1{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
+	animation-name: l7ball1an;
+		animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+#l7ball2{
+	width: 20px;
+	height: 20px;
+	background-color: blue;
+	border-radius: 50%;
+	display: inline-block;
+		animation-name: l7ball2an;
+		animation-duration: 1s;
+	animation-iteration-count: infinite;
+		
+}
+#l7ball3{
+	width: 20px;
+	height: 20px;
+	background-color: yellow;
+	border-radius: 50%;
+	display: inline-block;
+		animation-name: l7ball3an;
+		animation-duration: 1s;
+	animation-iteration-count: infinite;
+		
+}
+#l7ball4{
+	width: 20px;
+	height: 20px;
+	background-color: green;
+	border-radius: 50%;
+	display: inline-block;
+		animation-name: l7ball4an;
+		animation-duration: 1s;
+	animation-iteration-count: infinite;
+		
+}
+
+
+
+@keyframes l7ball1an{
+	0%{
+		opacity: 0;
+		}		
+	25%{
+		opacity: 0.25;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	75%{
+		opacity: 0.75;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+@keyframes l7ball2an{
+	0%{
+		opacity: 1;
+		}		
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.25;
+	}
+	75%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 0.75;
+	}
+}
+
+
+@keyframes l7ball3an{
+	0%{
+		opacity: 0.75;
+		}		
+	25%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+		opacity: 0.25;
+	}
+	100%{
+		opacity:0.5;
+	}
+}
+
+
+@keyframes l7ball4an{
+	0%{
+		opacity: 0.5;
+		}		
+	25%{
+		opacity: 0.75;
+	}
+	50%{
+		opacity: 1;
+	}
+	75%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0.25;
+	}
+}
+
