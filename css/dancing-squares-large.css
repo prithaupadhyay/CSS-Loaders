@@ -1,64 +1,49 @@
-.load3{
-	float: right;
-	display: inline-block;
-}
-
-#contain{
-	margin-top: 200px;
-	margin-left: 600px;
-}
-
-
-#l3box1{
+#l2box1{
 	width: 80px;
 	height: 80px;
-	border-radius: 50px;
-	background-color: #ff6666;
+	background-color: #990000;
 	display: inline-block;
-	animation-name: l3box1_an;
+	animation-name: l2box1_an;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	
 }
 
-#l3box2{
+#l2box2{
 	width: 80px;
 	height: 80px;
-	border-radius: 50px;
-	background-color: #66ff66;
+	background-color: #006600;
 	display: inline-block;
-	animation-name: l3box2_an;
+	animation-name: l2box2_an;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 		
 }
 
-#l3box3{
+#l2box3{
 	width: 80px;
 	height: 80px;
-	border-radius: 50px;
-	background-color: #3399ff;
+	background-color: #000099;
 	display: inline-block;
-	animation-name: l3box3_an;
+	animation-name: l2box3_an;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 		
 }
 
-#l3box4{
+#l2box4{
 	width: 80px;
 	height: 80px;
-	border-radius: 50px;
-	background-color: #ffcc00;
+	background-color: #FFFF00;
 	display: inline-block;
-	animation-name: l3box4_an;
+	animation-name: l2box4_an;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 		
 }
 
 
-@keyframes l3box1_an{
+@keyframes l2box1_an{
 	0%{
 		transform: translate(0,0);
 	}
@@ -76,7 +61,7 @@
 	}
 }
 
-@keyframes l3box2_an{
+@keyframes l2box2_an{
 	0%{
 		transform: translate(0,0);
 	}
@@ -94,7 +79,7 @@
 	}
 }
 
-@keyframes l3box3_an{
+@keyframes l2box3_an{
 	0%{
 		transform: translate(0,0);
 	}
@@ -112,7 +97,7 @@
 	}
 }
 
-@keyframes l3box4_an{
+@keyframes l2box4_an{
 	0%{
 		transform: translate(0,0);
 	}
