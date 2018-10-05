@@ -3,6 +3,10 @@
 ## Description
 <!--- Describe your changes in detail -->
 
+## Related issues
+<!--- Add any related issues, if applicable -->
+<!--- Example: Fixes: #[issue number] -->
+
 ## How Has This Been Tested?
 <!--- Please describe in detail how you tested your changes. -->
 <!--- Include details of your testing environment, tests ran to see how -->
