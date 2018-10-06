@@ -43,6 +43,7 @@
   background-color: #ff6666;
   animation: dot-1-move 2s ease infinite, index 6s ease infinite;
 }
+
 @keyframes dot-1-move {
   20% {
     transform: scale(1);

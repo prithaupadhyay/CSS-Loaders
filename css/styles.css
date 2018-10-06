@@ -95,6 +95,7 @@
   height: 100%;
   background: rgba(25, 25, 25, 0.7);
 }
+
 #view-source-code {
   display: none;
   position: absolute;
@@ -110,20 +111,24 @@
   max-height: 600px;
   overflow-y: scroll;
 }
+
 #view-source-code .close {
   padding: 0.5em 1em;
   position: absolute;
   top: 0;
   right: 0;
 }
+
 #view-source-code .html,
 #view-source-code .css {
   border: 2px solid #000;
   padding: 0.5em;
 }
+
 #view-source-code .html code {
   white-space: pre-line;
 }
+
 #view-source-code .css code {
   white-space: pre;
 }
