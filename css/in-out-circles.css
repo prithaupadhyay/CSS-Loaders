@@ -1,0 +1,36 @@
+#circle-div {
+    width: 80px;
+    height: 80px;
+    margin: 80px auto;
+    position: relative;
+}
+
+ #in-out-circles .crcl1, #in-out-circles .crcl2, #in-out-circles .crcl3 {    
+    border-radius: 100%;
+    opacity: 1;
+    animation:shapechanger 1.5s ease-in-out infinite;
+}
+ #in-out-circles .crcl1, #in-out-circles .crcl2, #in-out-circles .crcl3 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+ #in-out-circles .crcl1 {
+    border: 6px solid rgba(61, 61, 61, 0.48);
+    z-index: 3;
+}
+ #in-out-circles .crcl2 {
+    border: 10px solid rgba(107, 107, 107, 0.48);   
+    z-index: 2;     
+}
+ #in-out-circles .crcl3 {
+    border: 14px solid rgba(170, 170, 170, 0.48);    
+    z-index: 1;
+}
+ @keyframes shapechanger {
+    0% {transform: scale(1); opacity: 1; }
+    50% { transform: scale(0.7); opacity: 0.9; }
+    100% {transform: scale(1); opacity: 1;}
+} 
