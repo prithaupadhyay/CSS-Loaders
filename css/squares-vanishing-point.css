@@ -1,0 +1,67 @@
+#l11box1,
+#l11box2,
+#l11box3,
+#l11box4 {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+#l11box1 {
+  background-color: #990000;
+  animation-name: l11box1_an;
+}
+
+#l11box2 {
+  background-color: #006600;
+  animation-name: l11box2_an;
+}
+
+#l11box3 {
+  background-color: #000099;
+  animation-name: l11box3_an;
+}
+
+#l11box4 {
+  background-color: #ffff00;
+  animation-name: l11box4_an;
+}
+
+@keyframes l11box1_an {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(32px, 32px) scale(.01);
+  }
+}
+
+@keyframes l11box2_an {
+  0% {
+    transform: translate(0, 0);
+  }
+  40% {
+    transform: translate(-32px, 32px) scale(.01);
+  }
+}
+
+@keyframes l11box3_an {
+  0% {
+    transform: translate(0, 0);
+  }
+  60% {
+    transform: translate(32px, -32px) scale(.01);
+  }
+}
+
+@keyframes l11box4_an {
+  0% {
+    transform: translate(0, 0);
+  }
+  80% {
+    transform: translate(-32px, -32px) scale(.01);
+  }
+}
